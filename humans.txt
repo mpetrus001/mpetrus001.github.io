@@ -4,12 +4,14 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+    Matthew Petrus -- Developer -- @mpetrus001
 
 # THANKS
 
     <name>
+    Travis Nielson
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, Sass, Jekyll
     jQuery, Modernizr
