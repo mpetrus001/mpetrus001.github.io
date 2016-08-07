@@ -1,5 +1,4 @@
 # Build settings
-
 markdown: kramdown
 permalink: pretty
 
@@ -8,3 +7,66 @@ port: 3000
 sass:
   sass_dir: /css
   style: :nested
+  
+defaults
+     matthew-p: "Matthew Petrus"
+     matthew-p-email: "mpetrus001@gmail.com"
+     matthew-p-image-url: "/img/mp-headshot.jpg"
+     pamela-p: "Pamelap Petrus"
+     pamela-p-email: "pamelapetrus@gmail.com"
+     pamela-p-image-url: "/img/pp-headshot.jpg"
+     ashlee-m: "Ashlee Matthews"
+     ashlee-m-email: "ashlee@pamelapetrus.com"
+     ashlee-m-image-url: "/img/am-headshot.jpg"
+     
+paginate:	5
+paginate_path: "/page:num"
+  
+prose:
+  siteurl: "http://mpetrus.github.io"
+  media: 'img'
+  relativeLinks: 'http://mpetrus001.github.io/links.jsonp'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Page Title"
+          value: ""
+      - name: "description"
+        field:
+          element: "text"
+          label: "Meta Description"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+          options:
+            - name: "DIY"
+              value: "diy"
+            - name: "Coding"
+              value: "coding"
+            - name: "Misc"
+              value: "misc"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Author"
+          options:
+            - name: 'Matthew Petrus'
+              value: 'matthew-p'
+            -name: "Pamela Petrus"
+              value: "pamela-p"
+            -name: "Ashlee Matthews"
+              value: "ashlee-m"
+      - name: "excerpt_separator"
+        field:
+          element: "hidden"
+          value: "<!--more-->"
