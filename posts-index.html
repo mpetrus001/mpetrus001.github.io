@@ -4,15 +4,16 @@
   description: An index of posts for the site.
 ---
 
-## Check out this list of posts I made!
+<h2>Check out this list of posts I made!</h2>
 
 <ul>
 
   {% for post in site.posts %}
   
     <li>
-    
+      <p>{{ post.date }}</p>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      
       
     </li>
     
