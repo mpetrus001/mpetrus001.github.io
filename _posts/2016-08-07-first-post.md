@@ -2,6 +2,7 @@
   layout: post
   title: First Post
   description: First post made to test out the post feature of Jekyll
+  author: matthew-p
 ---
 
 ## First Post
