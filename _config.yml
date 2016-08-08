@@ -57,15 +57,10 @@ prose:
               value: "misc"
       - name: "author"
         field:
-          element: "select"
+          element: "text"
           label: "Author"
-          options:
-            - name: "Matthew Petrus"
-              value: "matthew-p"
-            -name: "Pamela Petrus"
-              value: "pamela-p"
-            -name: "Ashlee Matthews"
-              value: "ashlee-m"
+          value: ""
+          
       - name: "excerpt_separator"
         field:
           element: "hidden"
