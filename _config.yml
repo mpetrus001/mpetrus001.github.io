@@ -8,7 +8,7 @@ sass:
   sass_dir: /css
   style: :nested
   
-defaults
+defaults:
      matthew-p: "Matthew Petrus"
      matthew-p-email: "mpetrus001@gmail.com"
      matthew-p-image-url: "/img/mp-headshot.jpg"
