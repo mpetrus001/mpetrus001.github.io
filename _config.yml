@@ -60,8 +60,8 @@ prose:
           element: "select"
           label: "Author"
           options:
-            - name: 'Matthew Petrus'
-              value: 'matthew-p'
+            - name: "Matthew Petrus"
+              value: "matthew-p"
             -name: "Pamela Petrus"
               value: "pamela-p"
             -name: "Ashlee Matthews"
