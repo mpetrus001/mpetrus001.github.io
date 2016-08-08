@@ -23,6 +23,7 @@ paginate:	5
 paginate_path: "/page:num"
   
 prose:
+  rooturl: '_posts'
   siteurl: "http://mpetrus.github.io"
   media: 'img'
   relativeLinks: 'http://mpetrus001.github.io/links.jsonp'
