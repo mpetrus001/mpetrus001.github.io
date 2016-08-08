@@ -9,15 +9,15 @@ sass:
   style: :nested
   
 defaults:
-     matthew-p: "Matthew Petrus"
-     matthew-p-email: "mpetrus001@gmail.com"
-     matthew-p-image-url: "/img/mp-headshot.jpg"
-     pamela-p: "Pamelap Petrus"
-     pamela-p-email: "pamelapetrus@gmail.com"
-     pamela-p-image-url: "/img/pp-headshot.jpg"
-     ashlee-m: "Ashlee Matthews"
-     ashlee-m-email: "ashlee@pamelapetrus.com"
-     ashlee-m-image-url: "/img/am-headshot.jpg"
+  scope:
+      path: "" # an empty string here means all files in the project
+  values:
+      layout: "default"
+  scope:      
+      path: "_posts"
+  values:
+      layout: "post"
+      author: "Matthew Petrus"
      
 paginate:	5
 paginate_path: "/page:num"
