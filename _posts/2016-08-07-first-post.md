@@ -1,8 +1,12 @@
 ---
-  layout: post
-  title: First Post
-  description: First post made to test out the post feature of Jekyll
-  author: matthew-p
+excerpt_separator: <!--more-->
+layout: post
+title: First Post
+description: First post made to test out the post feature of Jekyll
+author: 'Matthew Petrus '
+published: true
+tags:
+  - misc
 ---
 
 ## First Post
