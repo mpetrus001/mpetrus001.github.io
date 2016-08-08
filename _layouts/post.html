@@ -16,17 +16,8 @@
 			</div>
 			
 			<div class="author-bar">
-				{% assign author = {{ page.author }} %}
-				{% capture author-email %}{{ page.author }}-"email"{% endcapture %}
-				
-				<ul>
-					<li>{{ site.author }}</li>
-					<li>{{ site.author-email }}</li>
-				</ul>
-				
-			</div>
-			
-			{% include author-bar.html %}
+              <h3>{{ page.author }}</h3>
+              </div>
 			
 			{% include footer.html %}
 			
