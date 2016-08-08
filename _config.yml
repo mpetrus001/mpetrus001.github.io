@@ -5,7 +5,7 @@ permalink: pretty
 port: 3000
 
 sass:
-  sass_dir: /css
+  sass_dir: _sass
   style: :nested
   
 defaults:
@@ -13,15 +13,15 @@ defaults:
       path: "" # an empty string here means all files in the project
   values:
       layout: "default"
-  scope:      
+  scope:
       path: "_posts"
   values:
       layout: "post"
       author: "Matthew Petrus"
-     
+
 paginate:	5
 paginate_path: "/page:num"
-  
+
 prose:
   rooturl: '/_posts'
   siteurl: "http://mpetrus.github.io"
@@ -61,7 +61,7 @@ prose:
           element: "text"
           label: "Author"
           value: ""
-          
+
       - name: "excerpt_separator"
         field:
           element: "hidden"
