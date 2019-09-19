@@ -4,10 +4,6 @@ permalink: pretty
 
 port: 3000
 
-sass:
-  sass_dir: _sass
-  style: :nested
-  
 defaults:
   scope:
       path: "" # an empty string here means all files in the project
@@ -21,48 +17,3 @@ defaults:
 
 paginate:	5
 paginate_path: "/page:num"
-
-prose:
-  rooturl: '/_posts'
-  siteurl: "http://mpetrus.github.io"
-  media: 'img'
-  relativeLinks: 'http://mpetrus001.github.io/links.jsonp'
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Page Title"
-          value: ""
-      - name: "description"
-        field:
-          element: "text"
-          label: "Meta Description"
-          value: ""
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          alterable: true
-          options:
-            - name: "DIY"
-              value: "diy"
-            - name: "Coding"
-              value: "coding"
-            - name: "Misc"
-              value: "misc"
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          value: ""
-
-      - name: "excerpt_separator"
-        field:
-          element: "hidden"
-          value: "<!--more-->"

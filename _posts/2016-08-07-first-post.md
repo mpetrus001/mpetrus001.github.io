@@ -2,7 +2,7 @@
 excerpt_separator: <!--more-->
 layout: post
 title: First Post
-description: First post made to test out the post feature of Jekyll
+description: First post made to test out Jekyll
 author: 'Matthew Petrus '
 published: true
 tags:
