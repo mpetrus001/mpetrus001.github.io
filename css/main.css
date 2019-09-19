@@ -33,6 +33,7 @@ header p {
 }
 nav ul {
   margin: 0;
+padding: 0;
   display: flex;
   justify-content: center;
   border-top: .07rem solid #444444;
