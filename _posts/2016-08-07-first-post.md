@@ -1,11 +1,7 @@
 ---
-layout: post
 title: First Post
 description: First post made to test out Jekyll.
-author: Matthew Petrus
-published: true
-tags:
-  - misc
+tags: [misc]
 ---
 
 ## First Post
