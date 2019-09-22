@@ -8,11 +8,11 @@ defaults:
   scope:
       path: "" # an empty string here means all files in the project
   values:
-      layout: "default"
+      layout: default
   scope:
       path: "_posts"
   values:
-      layout: "post"
+      layout: post
       author: "Matthew Petrus"
 
 paginate:	5
