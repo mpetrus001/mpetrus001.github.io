@@ -1,19 +1,14 @@
-# Build settings
-markdown: kramdown
+# Outputting
 permalink: pretty
 
-port: 3000
-
+# Front Matter Defaults
 defaults:
-  scope:
-      path: "" # an empty string here means all files in the project
-  values:
-      layout: default
-  scope:
-      path: "_posts"
-  values:
-      layout: post
-      author: "Matthew Petrus"
-
-paginate:	5
-paginate_path: "/page:num"
+  - scope:
+      path: '' # an empty string here means all files in the project
+    values:
+      layout: 'default'
+  - scope:
+      path: '_posts'
+    values:
+      layout: 'post'
+      author: 'Matthew Petrus'
