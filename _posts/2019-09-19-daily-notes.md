@@ -2,6 +2,7 @@
 title: 'Daily Notes: September 19, 2019'
 description: The Console API and Semantic HTML
 tags: [daily, html, js]
+layout: post
 ---
 
 ## Daily Notes: September 19, 2019

@@ -2,6 +2,7 @@
 title: First Post
 description: First post made to test out Jekyll.
 tags: [misc]
+layout: post
 ---
 
 ## First Post
