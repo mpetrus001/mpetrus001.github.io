@@ -1,8 +1,8 @@
 ---
+layout: post
 title: 'Daily Notes: September 18, 2019'
 description: The Fetch API and Meta Tags
 tags: [daily, html, js]
-layout: post
 ---
 
 ## Daily Notes: September 18, 2019
