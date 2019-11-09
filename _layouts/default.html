@@ -10,7 +10,7 @@
 
 		<link rel="stylesheet" href="/css/normalize.css" />
 		<link
-			href="https://fonts.googleapis.com/css?family=Taviraj|Work+Sans&display=swap"
+			href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" type="text/css" href="/css/main.css" />
@@ -18,12 +18,11 @@
 	<body>
 		<div class="container">
 			<header>
-				{% include header.html %}
+				<h1>Matthew Petrus</h1>
+				<nav>
+					{% include nav.html %}
+				</nav>
 			</header>
-
-			<nav>
-				{% include nav.html %}
-			</nav>
 
 			<main>
 				{{ content }}

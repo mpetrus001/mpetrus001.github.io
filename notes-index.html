@@ -1,20 +1,25 @@
 ---
 layout: default
-title: Posts
-description: An index of posts for the site.
-permalink: /posts
+title: Notes
+description: An index of my notes as posts.
+permalink: /notes
 ---
 
 <article>
-	<h2>Posts</h2>
+	<h2>Notes</h2>
 
-	<ul>
+	<ul class="post-list-index">
 		{% for post in site.posts %}
 
 		<li>
 			<p>
 				{{ post.date | date_to_string }} -
 				<a href="{{ post.url }}">{{ post.title }}</a>
+			</p>
+			<p>
+				<em>
+					{{ post.description }}
+				</em>
 			</p>
 		</li>
 

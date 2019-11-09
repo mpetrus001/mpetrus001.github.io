@@ -3,9 +3,6 @@ layout: default
 ---
 
 <article>
-	<p class="article-date">{{ page.date | date: '%B %-d, %Y' }}</p>
-
+	<h2>{{ page.title }}</h2>
 	{{ content }}
-
-	<p class="article-tags">{{ page.tags }}</p>
 </article>
