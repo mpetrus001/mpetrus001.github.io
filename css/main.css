@@ -19,7 +19,6 @@ body {
 	background-color: var(--secondary-bg);
 	color: var(--primary-text);
 	font-family: var(--serif-font);
-	min-width: 500px;
 }
 header {
 	padding: 1rem;
@@ -70,8 +69,6 @@ nav .active-nav {
 main {
 	padding: 0 30px;
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
 }
 article {
 	border-left: 2px solid var(--secondary-text);
@@ -103,6 +100,8 @@ article p {
 article ul {
 	margin-left: 2rem;
 }
+
+/* borrowed from codestyler */
 article code {
 	background: #f4f4f4;
 	border: 1px solid #ddd;
@@ -116,12 +115,10 @@ article code {
 	padding: 0.5em 1em;
 	display: block;
 	word-wrap: break-word;
-
 	margin-left: 30px;
 	overflow: auto;
 	overflow-x: auto;
 	white-space: pre-wrap;
-	counter-reset: line;
 }
 .post-list-index {
 	font-family: var(--sans-font);
@@ -159,4 +156,27 @@ footer a:hover {
 }
 footer a:active {
 	text-decoration: underline;
+}
+
+@media (max-width: 599px) {
+	header {
+		flex-direction: column;
+	}
+}
+@media (min-width: 600px) {
+	article {
+		width: 500px;
+	}
+}
+@media (min-width: 900px) {
+	article {
+		width: 750px;
+	}
+}
+@media (min-width: 1200px) {
+	article {
+		width: 1000px;
+	}
+}
+@media (min-width: 1800px) {
 }

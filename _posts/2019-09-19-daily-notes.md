@@ -9,11 +9,11 @@ tags: [daily, html, js, console]
 
 _**Use the appropriate type of console write.**_ I came across an article that pointed out the alternatvies to console.log(). Here are some that I think would be helpful:
 
-```js
+~~~
 console.assert(true, 'Will write if false'); // Will only print if the first arg is false.
 console.table({ firstName: 'Matthew', lastName: 'Petrus' }); // Prints a pretty table of the object key:value pairs. console.time("Timer 1");
 console.timeEnd('Timer 1'); // Prints the time elapsed between calls "Timer 1: 20ms"
-```
+~~~
 
 Found on reddit, linked from (htt://levelup.getconnected.com).
 
