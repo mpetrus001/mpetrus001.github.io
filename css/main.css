@@ -11,12 +11,12 @@
 body {
 	padding: 0;
 	margin: 0;
+	background-color: var(--secondary-bg);
 }
 .container {
 	display: grid;
 	grid-template-rows: auto 1fr auto;
 	height: 100vh;
-	background-color: var(--secondary-bg);
 	color: var(--primary-text);
 	font-family: var(--serif-font);
 }
