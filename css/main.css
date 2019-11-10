@@ -97,6 +97,13 @@ article p {
 	line-height: 1.25rem;
 	font-size: 1rem;
 }
+article a {
+	text-decoration: none;
+	color: var(--primary-bg);
+}
+article a:hover {
+	text-decoration: underline;
+}
 article ul {
 	margin-left: 2rem;
 }
@@ -129,13 +136,6 @@ article code {
 .post-list-index p {
 	margin: 0;
 	text-indent: 0;
-}
-.post-list-index a {
-	text-decoration: none;
-	color: var(--primary-bg);
-}
-.post-list-index a:hover {
-	text-decoration: underline;
 }
 footer {
 	text-align: center;
